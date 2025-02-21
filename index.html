@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Formulário HTML</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Faça o campo B ter um número maior do que o campo A:
+        </h1>
+        <form class="formArea">
+            <input id="areaA" type="number" required placeholder="Campo A">
+            <input id="areaB" type="number" required placeholder="Campo B" >
+            <button type="submit">Verificar</button>
+            <p id="msgIgual">Os campos tem o mesmo valor!</p>
+            <p id="msgAcerto">Mensagem acerto</p>
+            <p id="msgErro">Mensagem erro</p>
+        </form>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>

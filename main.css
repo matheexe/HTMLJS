@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
+
+body{
+    background-color: #01131d;
+    font-family: "Average Sans", serif;
+}
+
+h1{
+    margin: 5vw 5vw 1vw 5vw;
+    color: #e3f5ff;
+    font-weight: bold;
+}
+.container{
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.container .formArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .formArea input{
+    font-size: 1vw;
+    text-align: center;
+    background: #e3f5ff;
+    margin-bottom: 0.5vw;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+
+.container .formArea input::placeholder{
+    color: #01131d;
+}
+
+button{
+    margin-top: 1vw;
+    height: 100px;
+    width: 190px;
+    background-color: #9ad492;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+
+button:hover{
+    background-color: #9ad492e5;
+    cursor: pointer;
+}
+
+#msgIgual{
+    display: none;
+    margin-top: 30px;
+    background-color: #cb6853;
+    color: #01131d;
+    width: 12vw;
+    height: 5vw;
+    align-content: center;
+    text-align: center;
+    border-radius: 8px;
+    transition: ease 0.4s;
+}
+
+#msgErro{
+    display: none;
+    margin-top: 30px;
+    background-color: #cb6853;
+    color: #01131d;
+    width: 13vw;
+    height: 5vw;
+    align-content: center;
+    text-align: center;
+    border-radius: 8px;
+    transition: ease 0.4s;
+}
+
+#msgAcerto{
+    display: none;
+    margin-top: 30px;
+    background-color: #83cb53;
+    color: #01131d;
+    width: 13vw;
+    height: 5vw;
+    align-content: center;
+    text-align: center;
+    border-radius: 8px;
+    transition: ease 0.4s;
+}
